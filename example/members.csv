@@ -1,0 +1,15 @@
+category,mark,section,description,qty,length_m,sheet,notes
+Portal frames,C1,250UB31.4,"Portal column, grids A & B",10,4.5,S1,Base and cap plates excluded
+Portal frames,R1,250UB25.7,"Portal rafter, eave to ridge",10,6.02,S1,5 deg pitch; haunches from offcuts
+End walls,EC1,150x150x5.0 SHS,"End wall column, grids 1 & 5",4,4.85,S1,
+End walls,DH1,100PFC,"Roller door head, grid 1",1,4.0,S1,Door 4.0 x 4.0 m
+End walls,PJ1,89x89x3.5 SHS,"Personnel door jamb, grid 5",2,2.4,S1,To girt G2 at 2.4 m
+End walls,PH1,89x89x3.5 SHS,"Personnel door head, grid 5",1,1.0,S1,
+Purlins and girts,P1,Z20019,"Roof purlin, 6 rows each side",12,26.7,S1,24.0 m + 3 laps x 0.9 m (15% of span)
+Purlins and girts,EP1,C20019,"Eave purlin, simple span",8,6.0,S1,
+Purlins and girts,G1,Z15015,"Side wall girt, 3 rows each wall",6,26.7,S1,24.0 m + 3 laps x 0.9 m
+Purlins and girts,G2,C15015,"End wall girt, between columns",15,4.0,S1,Omitted over roller door
+Bracing,BR1,M16 ROD,"Roof cross bracing, end bays",8,8.5,S1,With turnbuckles
+Bracing,BR2,M20 ROD,"Side wall cross bracing, end bays",8,7.5,S1,With turnbuckles
+Bracing,S1,89x89x3.5 SHS,"Ridge strut, braced bays",2,6.0,S1,
+Bracing,FB1,50x50x5 EA,Rafter fly brace,36,0.9,S1,"Grids 2-4, 3 per rafter side, both flanges"
