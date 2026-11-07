@@ -1,4 +1,4 @@
-"""Fictitious A3 framing sheet (S1) for a 24 x 12 m portal-frame shed, plus a colour takeoff markup.
+"""Sample A3 framing sheet (S1) for a 24 x 12 m portal-frame shed, plus a colour takeoff markup.
 Paper units are millimetres; drawings at 1:100 (1 m = 10 mm)."""
 import csv
 import math
@@ -290,7 +290,7 @@ def schedule_and_title(sh, members, markup):
               "2. Roof pitch 5 deg, eave height 4500 above FFL.",
               "3. Purlins Z20019 lapped 15% of span at frames.",
               "4. Rod bracing with turnbuckles, end bays.",
-              "5. Fictitious project - for demonstration only."])
+              "5. Portfolio sample - not for construction."])
     sh.ax.plot([x0 + 2, x1 - 2], [y + 2, y + 2], lw=0.3, color="black")
     for i, n in enumerate(notes):
         sh.text(x0 + 3, y - 3 - i * 4.6, n, size=4.6 if i else 5.2, ha="left",
@@ -298,7 +298,7 @@ def schedule_and_title(sh, members, markup):
     # title block
     tb = 12
     sh.ax.plot([x0, x1], [tb + 52, tb + 52], lw=0.5, color="black")
-    rows = [("PROJECT", "RURAL MACHINERY SHED 24 x 12 m"), ("", "SAMPLE - FICTITIOUS PROJECT"),
+    rows = [("PROJECT", "RURAL MACHINERY SHED 24 x 12 m"), ("", "PORTFOLIO SAMPLE"),
             ("SHEET", "FRAMING PLAN, SECTION AND ELEVATIONS"),
             ("PREPARED", "SERGEI GRISHUTOV - QUANTITY SURVEYOR"),
             ("SCALE", "AS SHOWN @ A3"), ("DATE", "NOV 2026")]
