@@ -11,7 +11,7 @@ Small Python tools I use for structural steel takeoffs: turn a member list into 
 | `bom_builder.py` | Member list (CSV) → Excel BoM: grouped by category, live formulas, subtotals, waste %, summary by section and category, notes sheet |
 | `sections_custom.csv` | Your own kg/m values (cold-formed purlins and girts, other catalogues). Read first, overrides the calculation |
 | `tests.py` | Spot checks against published catalogue values |
-| `example/` | A complete worked example: fictitious 24 x 12 m portal-frame shed |
+| `example/` | A complete worked example: a 24 x 12 m portal-frame shed (sample drawing) |
 
 ## Quick start
 ```bash
@@ -23,13 +23,13 @@ python bom_builder.py example/members.csv -o Steel_BoM.xlsx --project "My projec
 Member list columns: `category, mark, section, description, qty, length_m, sheet, notes` (optional `kg_per_m` to override a line).
 
 ## Worked example: portal-frame shed
-A fictitious A3 framing sheet, my colour takeoff markup of it, and the BoM built from the member list.
+A sample A3 framing sheet, my colour takeoff markup of it, and the BoM built from the member list.
 
 | Drawing | Takeoff markup |
 | --- | --- |
 | ![Framing sheet](images/S1_Machinery_Shed_Framing_preview.png) | ![Takeoff markup](images/S1_Machinery_Shed_Takeoff_Markup_preview.png) |
 
-- `example/S1_Machinery_Shed_Framing.pdf` – the drawing (fictitious project)
+- `example/S1_Machinery_Shed_Framing.pdf` – the drawing (portfolio sample)
 - `example/S1_Machinery_Shed_Takeoff_Markup.pdf` – every member colour-coded by type, with count tags and a legend
 - `example/members.csv` – the measured member list
 - `example/Steel_BoM_Machinery_Shed.xlsx` – the bill of materials
